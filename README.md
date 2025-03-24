@@ -43,24 +43,48 @@ This is a solution for the [Titanic: Machine Learning from Disaster](https://www
 
 ---
 
-## 🧪 Models & Performance
+## Models & Performance
 
-| Model               | CV Accuracy   |
+| Model              | CV Accuracy   |
 |--------------------|---------------|
-| Logistic Regression| ~79%          |
-| Random Forest      | ~81%          |
-| XGBoost            | ~82%          |
+| Logistic Regression| ~81.42%       |
+| XGBoost            | ~83.46%       |
 
 > Final submission used **XGBoost** with optimized parameters.
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
 ```
+## How to Run
+
+1. Clone this repository  
+2. Add `train.csv` and `test.csv` to the `data/` directory  
+3. Open and run the notebooks in `notebooks/`  
+4. Export predictions to CSV for Kaggle submission  
+
+---
+
+## Resources
+
+- [Kaggle Titanic Competition](https://www.kaggle.com/competitions/titanic)  
+- [Pandas Docs](https://pandas.pydata.org/)  
+- [scikit-learn Docs](https://scikit-learn.org/)  
+- [XGBoost Docs](https://xgboost.readthedocs.io/)  
+
+---
+
+## Author
+
+Made with ❤️ for the Titanic ML challenge.
+
+---
+
+Let me know if you'd like to add a section on SHAP values, pipeline usage, or saving/loading models!
 
 

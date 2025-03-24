@@ -15,8 +15,8 @@ This is a solution for the [Titanic: Machine Learning from Disaster](https://www
    - Encoded categorical variables like `Sex` and `Embarked`
 
 2. **Data Visualisation**
-   -Sperman Correlation
-   -seaborn plots
+   - Sperman Correlation
+   - seaborn plots
    
 
 2. **Feature Engineering**
@@ -85,12 +85,8 @@ pip install -r requirements.txt
 
 ---
 
-## Author
+## License
 
-Made with ❤️ for the Titanic ML challenge.
-
----
-
-Let me know if you'd like to add a section on SHAP values, pipeline usage, or saving/loading models!
+MIT License. Feel Free to contribute
 
 

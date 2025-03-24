@@ -7,19 +7,25 @@ This is a solution for the [Titanic: Machine Learning from Disaster](https://www
 
 ---
 
-## 🧠 Approach
+## Approach
 
 1. **Data Exploration & Cleaning**
    - Checked for missing values and outliers
    - Filled missing `Age`, `Embarked`, and `Fare`
    - Encoded categorical variables like `Sex` and `Embarked`
 
+2. **Data Visualisation**
+   -Sperman Correlation
+   -seaborn plots
+   
+
 2. **Feature Engineering**
    - Created new features: `FamilySize`, `Title`, `IsAlone`
    - Binned `Age` and `Fare` into categories
+   - Outlier Handling
 
 3. **Modeling**
-   - Tested multiple models: Logistic Regression, Random Forest, XGBoost
+   - Tested multiple models: Logistic Regression , XGBoost
    - Used cross-validation for evaluation
    - Tuned hyperparameters for best results
 

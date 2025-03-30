@@ -51,7 +51,7 @@ This is a solution for the [Titanic: Machine Learning from Disaster](https://www
 
 ## Models & Performance
 
-| Model              | CV Accuracy   |
+| Model              |  Accuracy   |
 |--------------------|---------------|
 | Logistic Regression| ~81.42%       |
 | XGBoost            | ~83.46%       |
